@@ -16,6 +16,7 @@ const Navbar = () => {
     toast.success("Logout Successfully")
     navigate("/");
   }
+  
   return (
     <div className="navbar">
       <img className="logo" src={assets.logo} alt="" />

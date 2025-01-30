@@ -7,6 +7,7 @@ import { StoreContext } from "../../context/StoreContext";
 import { useNavigate } from "react-router-dom";
 
 const List = ({ url }) => {
+  
   const navigate = useNavigate();
   const { token,admin } = useContext(StoreContext);
   const [list, setList] = useState([]);

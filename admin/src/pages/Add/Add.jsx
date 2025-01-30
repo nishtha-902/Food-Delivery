@@ -54,6 +54,7 @@ const Add = ({url}) => {
        navigate("/");
     }
   },[])
+  
   return (
     <div className="add">
       <form onSubmit={onSubmitHandler} className="flex-col">

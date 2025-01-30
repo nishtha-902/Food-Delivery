@@ -16,6 +16,7 @@ const App = () => {
       <ToastContainer />
       <Navbar />
       <hr />
+      
       <div className="app-content">
         <Sidebar />
         <Routes>

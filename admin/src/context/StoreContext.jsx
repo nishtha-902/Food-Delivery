@@ -26,6 +26,7 @@ const StoreContextProvider = (props) => {
     admin,
     setAdmin,
   };
+  
   return (
     <StoreContext.Provider value={contextValue}>
       {props.children}
